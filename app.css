@@ -1,0 +1,101 @@
+body {
+    background: #d1d5d9;
+    margin: 0%;
+    font-family: "Lato", sans-serif;
+  }
+
+.login-screen {
+    /* background-image: url("https://images7.alphacoders.com/697/697207.jpg"); */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.8);
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+    width: 100%;
+    text-align: center;
+  }
+  
+  .login-form h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .p-datatable .p-datatable-thead > tr > th {
+    font-weight: 700;
+    font-size: 14px !important;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+    font-size: 13px !important;
+}
+
+.p-datatable.p-datatable-sm .p-datatable-header {
+    padding: 4px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.p-tabview .p-tabview-panels {
+    background: #d1d5d9;
+    padding: 0px;
+    border: 0 none;
+    color: #495057;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-top: 20px;
+}
+
+.p-input-icon-left > .p-inputtext {
+  padding-left: 2.5rem;
+  height: 40px;
+}
+
+.p-button.p-button-sm {
+  font-size: 0.875rem;
+  padding: 0.65625rem 1.09375rem;
+  height: 40px;
+}
+
+.p-button {
+  color: #ffffff;
+  background: #6366F1;
+  border: 1px solid #6366F1;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  border-radius: 6px;
+  height: 40px;
+}
+
+.p-inputtext {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  color: #495057;
+  background: #ffffff;
+  padding: 0.75rem 0.75rem 0.70rem 0.70rem;
+  border: 1px solid #ced4da;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  appearance: none;
+  border-radius: 6px;
+  ;
+}
+
+.p-card .p-card-content {
+  padding: 0px;
+}
+
+.p-dropdown {
+  display: inline-flex;
+  cursor: pointer;
+  position: relative;
+  -webkit-user-select: none;
+  user-select: none;
+  align-items: center;
+}
